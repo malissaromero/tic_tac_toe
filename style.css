@@ -2,21 +2,25 @@ h1 {
   text-align: center;
 }
 
+div {
+  text-align: center;
+}
+
 table, tr, td {
-   border: 1px solid black;
-   text-align: center;
-}
-
-table {
-    width: 40%;
-    border-collapse: collapse;
-    margin: auto;
-}
-
-tr {
-    height: 50px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-collapse: collapse;
+  border-color: black;
+  cursor: pointer;
 }
 
 td {
-    padding: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+#newGame {
+  cursor: pointer;
 }

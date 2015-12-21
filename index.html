@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <title>Tic Tac Toe Game</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="scripts.js"></script>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
-
 <body>
-<h1>Tic Tac Toe Game</h1>
-<table id="table">
-  <tr id ="row">
-    <td id ="data"></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+  <h1>Tic Tac Toe Game</h1>
+  <div>Player Turn: <span id="players"></span></div>
+  <div id="winner"></div>
+  <table>
+    <tr>
+      <td class="box"></td>
+      <td class="box"></td>
+      <td class="box"></td>
+    </tr>
+    <tr>
+      <td class="box"></td>
+      <td class="box"></td>
+      <td class="box"></td>
+    </tr>
+    <tr>
+      <td class="box"></td>
+      <td class="box"></td>
+      <td class="box"></td>
+    </tr>
+  </table>
+  <div id="newGame">Play Again</div>
+
 </body>
 </html>
